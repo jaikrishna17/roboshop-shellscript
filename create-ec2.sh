@@ -2,7 +2,7 @@
 #!/bin/bash
 
 instances=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "web")
-domain_name="daws78s.online"
+domain_name="jai-awsdevops.online"
 hosted_zone_id="Z08884492QFPW45HM4UQO"
 
 for name in ${instances[@]}; do
